@@ -1,0 +1,20 @@
+1 revision
+--This line, and those below, will be ignored--
+
+A    jasmine
+A    jasmine/jasmine.js
+A    jasmine/jasmine-html.js
+A    jasmine/MIT.LICENSE
+A    jasmine/jasmine.css
+AM   jasmine/jasmine_favicon.png
+A    src
+A    src/Event.js
+A    index.html
+A    spec
+A    spec/EventSpec.js
+A    spec/SortedItemsSpec.js
+A    spec/ClassUtilSpec.js
+A    util
+A    util/personClass.js
+A    util/util.js
+A    util/classUtil.js

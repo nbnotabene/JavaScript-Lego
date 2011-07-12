@@ -64,7 +64,7 @@ function Items(oConstructor){
   
   //exists, remove, removeAll
   this.items = function(){
-    return this._list;
+    return this;
   }
 }//Items
 
@@ -106,36 +106,3 @@ function SortedItems(oConstructor,field,desc){
 
 
 SortedItems.inheritsFrom(Items);
-
-
-
-//Cat.inheritsFrom(Mammal);
-//REPLACES
-//Cat.prototype = new Mammal();        // Here's where the inheritance occurs 
-//Cat.prototype.constructor=Cat;       // Otherwise instances of Cat would have a constructor of Mammal 
-//Cat.prototype.parent=Mammal.prototype
-//BEMAERK parent kan vaere ABSTRAKT CLASS:
-//LivingThing = {beBorn : function(){this.alive = true;}}
-
-
-/*
-this.loadConfig = function(config)
-{
-    for (var k in config)
-    {
-        if (k != 'ajaxFiles')  // Filter out custom handled options
-        {
-            this[k] = config[k];
-        }
-    }
-
-    // Now, handle them explicitly
-    if (config.ajaxFiles)
-    {
-        for (var k in config.ajaxFiles)
-        {
-            this.ajaxFiles[k] = config.ajaxFiles[k];
-        }
-    }
-}
-*/
